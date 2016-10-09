@@ -9,7 +9,7 @@ import {Route, Router} from "@angular/router";
     templateUrl: 'heroes.component.html',
 })
 
-export class HereosComponent implements OnInit {
+export class HeroesComponent implements OnInit {
     ngOnInit(): void {
         this.getHeroes();
     }
